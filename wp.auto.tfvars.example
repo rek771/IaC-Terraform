@@ -1,0 +1,24 @@
+#https://cloud.yandex.ru/docs/iam/operations/authorized-key/create CLI tab
+yc_cloud_id = ""
+yc_folder_id = ""
+yc_service_account_key_file = "./key.json"
+hosts = {
+  "wp-app-1" = {
+    zone = "ru-central1-a"
+    v4_cidr_blocks = [
+      "10.2.0.0/16"
+    ]
+  },
+  "wp-app-2" = {
+    zone = "ru-central1-b"
+    v4_cidr_blocks = [
+      "10.3.0.0/16"
+    ]
+  },
+  "wp-app-3" = {
+    zone = "ru-central1-c"
+    v4_cidr_blocks = [
+      "10.4.0.0/16"
+    ]
+  },
+}
