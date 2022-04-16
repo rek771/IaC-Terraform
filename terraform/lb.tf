@@ -29,7 +29,6 @@ resource "yandex_lb_network_load_balancer" "wp_lb" {
       name = "http"
       http_options {
         port = 80
-        path = "/health"
       }
     }
   }
