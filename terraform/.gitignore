@@ -1,4 +1,4 @@
-.idea
+../.idea
 key.json
 .terraform.lock.hcl
 keys.pub
